@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url("https://images4.alphacoders.com/806/806137.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+
+  height: 100vh;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.countdown {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.countdown span {
+  display: block;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .countdown {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .countdown span {
+    display: block;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .countdown {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .countdown span {
+    display: block;
+    font-size: 3rem;
+  }
+}
